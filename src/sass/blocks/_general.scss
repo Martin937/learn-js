@@ -1,0 +1,19 @@
+body {
+  @include font();
+}
+
+.container {
+  max-width: 85vw;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 130px;
+  height: 40px;
+}
+
+.title {
+  @include title();
+  letter-spacing: 2px;
+  text-shadow: $text-shadow;
+}
